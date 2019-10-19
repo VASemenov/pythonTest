@@ -13,20 +13,20 @@ stages:
 build_product_a:
   stage: build
   script:
-    - pip install -r requirements.txt
+    - docker build .
   tags:
     - docker
 
 build_product_b:
   stage: build
   script:
-    - pip install -r requirements.txt
+    - docker build .
   tags:
     - docker
 
 build_product_c:
   stage: build
   script:
-    - pip install -r requirements.txt
+    - docker build .
   tags:
     - docker
