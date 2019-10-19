@@ -13,20 +13,20 @@ stages:
 build_product_a:
   stage: build
   script:
-    - docker build .
+    - docker build ./product_a
   tags:
     - docker
 
 build_product_b:
   stage: build
   script:
-    - docker build .
+    - docker build ./product_b
   tags:
     - docker
 
 build_product_c:
   stage: build
   script:
-    - docker build .
+    - docker build ./product_c
   tags:
     - docker
