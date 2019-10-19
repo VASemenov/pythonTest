@@ -26,6 +26,6 @@ jobs: # A basic unit of work in a run
             - "/usr/local/lib/python3.7/site-packages"
 
       - run: |
-        pipenv run python3 product_a/test.py
-        pipenv run python3 product_b/test.py
-        pipenv run python3 product_c/test.py
+          pipenv run python3 product_a/test.py
+          pipenv run python3 product_b/test.py
+          pipenv run python3 product_c/test.py
