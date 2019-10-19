@@ -1,7 +1,6 @@
 import random
 import unittest
 from time import sleep
-from common import sum
 
 
 class TestCase(unittest.TestCase):
