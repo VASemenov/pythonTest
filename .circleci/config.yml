@@ -25,4 +25,5 @@ jobs: # A basic unit of work in a run
             - "/usr/local/bin"
             - "/usr/local/lib/python3.7/site-packages"
 
-      - run: pipenv run python3 product_c/test.py
+      - run: pipevn import common
+             pipenv run python3 product_c/test.py
