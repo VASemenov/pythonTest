@@ -24,3 +24,5 @@ jobs: # A basic unit of work in a run
             - ".venv"
             - "/usr/local/bin"
             - "/usr/local/lib/python3.7/site-packages"
+
+      - run: pipenv run python3 product_c/test.py
